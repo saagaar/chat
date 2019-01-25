@@ -1,0 +1,93 @@
+.new-nav{
+    
+    position: relative;
+    z-index: 10;
+    position: fixed;
+    width: 100%;
+    z-index: 99!important;
+    background-color: #fff!important;
+    border-radius: 0;
+    margin-top:48px;
+    border-top: 6px solid #9ac034 ;
+    box-shadow: 1px 1px 1px 1px;
+    padding: 7px 0 0;
+    margin-bottom: 5px !important
+}
+.new-nav i{
+    color:#9ac034;
+    border: 1px solid #9ac034 ;
+    padding: 5px;
+    border-radius: 30px;
+   
+}
+.nav-cust li i{
+    width: auto!important
+}
+.nav-cust>li>a{
+    line-height: 0.428571!important;
+    margin-bottom:px!important
+}
+.bhoechie-tab-content .nav-cust{
+    padding: 0 20px !important;
+    position: absolute;
+    bottom: 0!important;
+    width: 50%
+}
+.bhoechie-tab-content .nav-cust>li.active{
+    border-color: red;
+    transition: all 0.3s ease 0s;
+}
+.new-nav .nav{
+    padding:  0 0
+}
+.new-nav .bhoechie-tab-content{
+    float: left
+}
+.logo{
+    padding: 0!important
+}
+#myNavbar .menu{
+    display: none;
+}
+.rightSection .border-box{
+   top: 80px;
+    position: relative;
+    min-height: 80vh;
+    background-color: #F3F3F3;
+    overflow: hidden!important
+}
+#menu li:last-child a {
+    border: 2px solid #fff;
+    background: #97be2e none repeat scroll 0 0;
+    color: #ffffff;
+    background-color: transparent;
+    border-radius: 30px;
+    margin: 0px 0 -3px -145px;
+    padding: 1px 5px;
+}
+#cke_1_bottom{
+    display: none;
+}
+footer {
+    position: relative;
+    z-index: 99;
+    background-color: #242424;
+    float: left;
+    padding: 15px 0;
+    width: 100%;
+    margin: 0!important
+}
+.sidebar-afix.client-desh{
+    /*margin-top: 69px!important;*/
+    border-top: 11px solid #9ac034 ;
+}
+.vd_content-section{
+    min-height: 80vh
+}
+.cust-rightsection{
+    margin-top: -26px !important
+}
+.nicescroll-rails{
+    top: 117px!important;
+    height: 80%!important;
+}

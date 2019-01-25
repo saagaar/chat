@@ -1,0 +1,34 @@
+{
+	"config": {
+        "vendor-dir": "application/third_party"
+    },
+    "autoload": {
+        "psr-4": {
+            "MyApp\\": "src",
+             "Illuminate\\Database\\": ""
+        },
+        "files" :[
+    		"application/third_party/src/setup_eloquent.php"
+    	]
+    },
+    
+	 "type": "codeigniter-third-party",
+    "require": {
+        "cboden/ratchet": "0.4.*",
+        "react/zmq": "0.2.*|0.3.*",
+        "illuminate/container":"5.5.*",
+        "illuminate/contracts": "5.5.*",
+        "illuminate/support": "5.5.*",
+         "illuminate/events":"*",
+         "illuminate/database":"*"
+      
+    },
+      "suggest": {
+        "doctrine/dbal": "Required to rename columns and drop SQLite columns (~2.6).",
+        "fzaninotto/faker": "Required to use the eloquent factory builder (~1.4).",
+        "illuminate/console": "Required to use the database commands (5.7.*).",
+        "illuminate/events": "Required to use the observers with Eloquent (5.7.*).",
+        "illuminate/filesystem": "Required to use the migrations (5.7.*).",
+        "illuminate/pagination": "Required to paginate the result set (5.7.*)."
+    }
+}
